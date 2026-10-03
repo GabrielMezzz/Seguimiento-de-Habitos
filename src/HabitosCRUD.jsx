@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-function HabitosCRUD() {
-  const [habitos, setHabitos] = useState([]);
+function HabitosCRUD({ habitos, setHabitos }) {
   const [nombre, setNombre] = useState("");
   const [descripcion, setDescripcion] = useState("");
   const [frecuencia, setFrecuencia] = useState("Diaria");
@@ -13,17 +12,19 @@ function HabitosCRUD() {
       return;
     }
 
-    const nuevoHabito = {
-      nombre: nombre,
-      descripcion: descripcion,
-      frecuencia: frecuencia,
-    };
-
     if (editando === -1) {
+      const nuevoHabito = {
+        nombre: nombre,
+        descripcion: descripcion,
+        frecuencia: frecuencia,
+        historial: [], // lo usa Seguimiento.jsx para guardar el cumplimiento
+      };
       setHabitos([...habitos, nuevoHabito]);
     } else {
       const listaActualizada = [...habitos];
-      listaActualizada[editando] = nuevoHabito;
+      listaActualizada[editando].nombre = nombre;
+      listaActualizada[editando].descripcion = descripcion;
+      listaActualizada[editando].frecuencia = frecuencia;
       setHabitos(listaActualizada);
       setEditando(-1);
     }
