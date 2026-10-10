@@ -1,0 +1,94 @@
+[
+  {
+    "nombre": "Leer",
+    "descripcion": "Leer 3 horas",
+    "frecuencia": "Diaria",
+    "historial": [
+      {
+        "fecha": "2026-10-07",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-08",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-09",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-10",
+        "cumplido": true
+      }
+    ]
+  },
+  {
+    "nombre": "Ejercicio",
+    "descripcion": "Entrenar 45 minutos",
+    "frecuencia": "Diaria",
+    "historial": [
+      {
+        "fecha": "2026-10-07",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-08",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-09",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-10",
+        "cumplido": true
+      }
+    ]
+  },
+  {
+    "nombre": "Meditar",
+    "descripcion": "10 minutos de meditación",
+    "frecuencia": "Diaria",
+    "historial": [
+      {
+        "fecha": "2026-10-07",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-08",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-09",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-10",
+        "cumplido": true
+      }
+    ]
+  },
+  {
+    "nombre": "Estudiar Inglés",
+    "descripcion": "Practicar vocabulario",
+    "frecuencia": "Semanal",
+    "historial": [
+      {
+        "fecha": "2026-10-07",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-08",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-09",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-10",
+        "cumplido": true
+      }
+    ]
+  }
+]
