@@ -1,80 +1,95 @@
 .App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 4px;
+  font-size: 14px;
+}
+
+input, select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+p {
+  color: #666;
+}
+
+.reporte-metricas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.metrica {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.metrica-valor {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.Habitos-container {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 16px;
-  text-align: left;
-  color: #000;
-}
-
-.Habitos-form .Habitos-campo {
-  margin-bottom: 8px;
-}
-
-.Habitos-form input,
-.Habitos-form select {
-  width: 100%;
-  padding: 8px;
-}
-
-.Habitos-error {
-  color: red;
-}
-
-.Habitos-cancelar {
-  margin-left: 8px;
-}
-
-.Habitos-tabla {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.Habitos-tabla th,
-.Habitos-tabla td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-}
-
-.Habitos-eliminar {
-  margin-left: 4px;
+.metrica-titulo {
+  display: block;
+  font-size: 11px;
+  color: #999;
+  margin-top: 4px;
 }
