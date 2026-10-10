@@ -1,30 +1,42 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import habitosIniciales from './habitos.json';
 import HabitosCRUD from './components/HabitosCRUD';
 import Seguimiento from './components/Seguimiento';
 import Reporte from './components/Reporte';
 
+const CLAVE_GUARDADO = 'habitos';
+
+// Copia profunda para no modificar el módulo importado.
+function clonarHabitos(lista) {
+  return lista.map((h) => ({
+    ...h,
+    historial: [...(h.historial || [])],
+  }));
+}
+
+// Al iniciar: usa lo guardado en el navegador; si no hay nada, el JSON original.
+function cargarHabitosIniciales() {
+  try {
+    const guardado = localStorage.getItem(CLAVE_GUARDADO);
+    if (guardado) return clonarHabitos(JSON.parse(guardado));
+  } catch (e) {
+    console.warn('No se pudieron leer los hábitos guardados.', e);
+  }
+  return clonarHabitos(habitosIniciales);
+}
+
 function App() {
-  const [habitos, setHabitos] = useState([]);
-  const [cargado, setCargado] = useState(false);
+  const [habitos, setHabitos] = useState(cargarHabitosIniciales);
 
+  // Cada vez que cambian los hábitos, se guardan en el navegador.
   useEffect(() => {
-    fetch('http://localhost:4000/api/habitos')
-      .then(res => res.json())
-      .then(datos => {
-        setHabitos(datos);
-        setCargado(true);
-      });
-  }, []);
-
-  useEffect(() => {
-    if (!cargado) return;
-    fetch('http://localhost:4000/api/habitos', {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(habitos)
-    });
-  }, [habitos, cargado]);
+    try {
+      localStorage.setItem(CLAVE_GUARDADO, JSON.stringify(habitos));
+    } catch (e) {
+      console.error('No se pudieron guardar los hábitos.', e);
+    }
+  }, [habitos]);
 
   return (
     <div className="App">

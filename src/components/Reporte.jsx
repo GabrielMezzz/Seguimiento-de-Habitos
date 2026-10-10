@@ -6,7 +6,6 @@ function Reporte({ habitos }) {
   const totalHabitos = habitos.length;
 
   // Métrica 1: Total de hábitos
-  // (totalHabitos ya está calculado arriba)
 
   // Métrica 2: Cumplimiento general (% de registros cumplidos)
   const todosLosRegistros = habitos.flatMap(h => h.historial || []);
