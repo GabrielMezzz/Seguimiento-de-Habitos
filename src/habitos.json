@@ -14,10 +14,66 @@
       },
       {
         "fecha": "2026-10-09",
-        "cumplido": false
+        "cumplido": true
       },
       {
         "fecha": "2026-10-10",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-11",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-12",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-13",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-14",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-15",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-16",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-17",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-18",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-19",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-20",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-21",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-22",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-23",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-24",
         "cumplido": true
       }
     ]
@@ -33,7 +89,7 @@
       },
       {
         "fecha": "2026-10-08",
-        "cumplido": false
+        "cumplido": true
       },
       {
         "fecha": "2026-10-09",
@@ -41,6 +97,62 @@
       },
       {
         "fecha": "2026-10-10",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-11",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-12",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-13",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-14",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-15",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-16",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-17",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-18",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-19",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-20",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-21",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-22",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-23",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-24",
         "cumplido": true
       }
     ]
@@ -56,14 +168,70 @@
       },
       {
         "fecha": "2026-10-08",
-        "cumplido": false
+        "cumplido": true
       },
       {
         "fecha": "2026-10-09",
-        "cumplido": false
+        "cumplido": true
       },
       {
         "fecha": "2026-10-10",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-11",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-12",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-13",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-14",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-15",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-16",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-17",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-18",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-19",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-20",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-21",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-22",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-23",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-24",
         "cumplido": true
       }
     ]
@@ -79,7 +247,7 @@
       },
       {
         "fecha": "2026-10-08",
-        "cumplido": true
+        "cumplido": false
       },
       {
         "fecha": "2026-10-09",
@@ -87,6 +255,62 @@
       },
       {
         "fecha": "2026-10-10",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-11",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-12",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-13",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-14",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-15",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-16",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-17",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-18",
+        "cumplido": false
+      },
+      {
+        "fecha": "2026-10-19",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-20",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-21",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-22",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-23",
+        "cumplido": true
+      },
+      {
+        "fecha": "2026-10-24",
         "cumplido": true
       }
     ]
